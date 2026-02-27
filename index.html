@@ -312,14 +312,28 @@ section{padding:100px 0}
     <h2>Simple pricing. No subscriptions.</h2>
     <p>Pay per report. Upgrade to a retainer when you're ready.</p>
   </div>
-  <div class="pricing-cards">
+  <div class="pricing-cards" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr));max-width:1100px">
+    <div class="pricing-card">
+      <div class="pricing-label" style="background:var(--green)">Start Here</div>
+      <h3>Competitive Snapshot</h3>
+      <div class="pricing-price">$500</div>
+      <div class="pricing-note">One-time · delivered in 48 hours</div>
+      <ul class="pricing-features">
+        <li>Up to 3 competitors analyzed</li>
+        <li>Key competitive positioning summary</li>
+        <li>Top threats & opportunities</li>
+        <li>Actionable next steps</li>
+        <li>"3 insights" guarantee</li>
+      </ul>
+      <a href="mailto:aaron@competealert.com?subject=Competitive%20Snapshot%20Request&body=Hi%2C%20I'm%20interested%20in%20a%20Competitive%20Snapshot.%0A%0AMy%20company%3A%20%0ACompetitors%20I%20want%20analyzed%3A%20%0AKey%20questions%3A%20" class="pricing-cta pricing-cta-primary" style="background:var(--green)">Get Your Snapshot →</a>
+    </div>
     <div class="pricing-card featured">
-      <div class="pricing-label">Most Popular</div>
+      <div class="pricing-label">Full Report</div>
       <h3>Intelligence Report</h3>
       <div class="pricing-price">$3,000</div>
       <div class="pricing-note">One-time · delivered in 48-72 hours</div>
       <ul class="pricing-features">
-        <li>Up to 5 competitors analyzed</li>
+        <li>Up to 5 competitors deep-dived</li>
         <li>50+ data sources researched</li>
         <li>Market position scorecard</li>
         <li>3-5 strategic recommendations</li>
@@ -333,7 +347,7 @@ section{padding:100px 0}
       <div class="pricing-price">$3,500<span style="font-size:.4em;font-weight:500;color:var(--text-muted)">/mo</span></div>
       <div class="pricing-note">Ongoing · after your first report</div>
       <ul class="pricing-features">
-        <li>Everything in single report</li>
+        <li>Everything in full report</li>
         <li>Monthly updated intelligence</li>
         <li>Real-time competitive alerts</li>
         <li>Up to 10 competitors tracked</li>
